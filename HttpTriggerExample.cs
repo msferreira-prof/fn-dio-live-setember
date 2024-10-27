@@ -25,7 +25,7 @@ namespace MyExample.Function
 
 
             _logger.LogInformation("C# HTTP trigger function processed a request.");
-            return new OkObjectResult($"Bem-vindo ao Azure Functions on DIO, {nome}!");
+            return new OkObjectResult($"Seja bem-vindo ao Azure Functions on DIO, {nome}!");
         }
     }
 }
